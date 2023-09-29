@@ -9,4 +9,7 @@ Calculate the net value price of this characteristic portfolio to serve as a ref
 3.Subtract the log of the reference price from the log of the closing price (StockPrice) of each stock in the CSI 500 to get the logarithmic price difference (PriceSpread).
 4.For each stock, calculate the PriceSpread over the past 60 trading days and standardize it to get SpreadBias.(normalization)
 
-This factor essentially measures the deviation of a stock's price relative to a portfolio of stocks with similar characteristics. It acts as a relative mean-reversion factor. A low SpreadBias indicates that the stock has underperformed its characteristic portfolio in the recent past, implying its relative valuation is low and suggesting a potential to revert upwards, thus expecting positive excess returns.
+This factor essentially measures the deviation of a stock's price relative to a portfolio of stocks with similar characteristics. 
+It acts as a relative mean-reversion factor. 
+A low SpreadBias indicates that the stock has underperformed its characteristic portfolio in the recent past, 
+implying its relative valuation is low and suggesting a potential to revert upwards, thus expecting positive excess returns.
